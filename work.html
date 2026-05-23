@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work — Alex Vreden</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/work.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav>
+    <a href="./index.html" class="nav-logo">DH<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./work.html" class="active">Work</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./work.html" class="active">Work</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- Page Header -->
+    <div class="page-header">
+      <div class="page-header-inner">
+        <div class="section-label fade-up">What I've built</div>
+        <h1 class="section-title fade-up" style="animation-delay: 0.15s">My Projects</h1>
+        <p class="page-subtitle fade-up" style="animation-delay: 0.3s">
+          A collection of projects I've built — from personal experiments to academic work.
+        </p>
+      </div>
+    </div>
+
+    <!-- Filter Tabs -->
+   <div class="filter-tabs" id="filterTabs">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="frontend">Frontend</button>
+  <button class="filter-btn" data-filter="iot">IoT</button>
+</div>
+    </div>
+
+    <!-- Projects Grid -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="work-grid" id="workGrid">
+
+  <!-- Project 1 -->
+  <div class="work-card card" data-category="iot">
+    <div class="work-img" style="--accent-c: #63b3ed">
+      <div class="work-img-num">01</div>
+    </div>
+    <div class="work-body">
+      <div class="work-header">
+        <h2 class="work-title">Solar Cashback System</h2>
+      </div>
+      <p class="work-desc">
+        An IoT-based system that generates energy via solar panels, stores it for use during power outages, and delivers surplus energy back to N.V. EBS.
+      </p>
+      <div class="work-tech">
+        <span class="tag">IoT</span>
+        <span class="tag">Hardware</span>
+        <span class="tag">Energy</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="work-card card" data-category="frontend">
+    <div class="work-img" style="--accent-c: #68d391">
+      <div class="work-img-num">02</div>
+    </div>
+    <div class="work-body">
+      <div class="work-header">
+        <h2 class="work-title">Mission Control — Earth vs. Aliens</h2>
+      </div>
+      <p class="work-desc">
+        An interactive space quiz web app where players defend Earth against an alien invasion by answering space-related questions correctly.
+      </p>
+      <div class="work-tech">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="work-card card" data-category="frontend">
+    <div class="work-img" style="--accent-c: #f6ad55">
+      <div class="work-img-num">03</div>
+    </div>
+    <div class="work-body">
+      <div class="work-header">
+        <h2 class="work-title">Portfolio Website</h2>
+      </div>
+      <p class="work-desc">
+        A personal portfolio website built from scratch with a dark theme, custom animations, and fully responsive layout.
+      </p>
+      <div class="work-tech">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2025 Djoenaid Hasnoe. Built with HTML, CSS & JS.</p>
+      <div class="footer-links">
+        <a href="./about.html">About</a>
+        <a href="./work.html">Work</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/work.js"></script>
+</body>
+</html>
