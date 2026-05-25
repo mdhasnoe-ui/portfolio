@@ -150,3 +150,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+.work-img.blue   { --accent-c: #63b3ed; }
+.work-img.green  { --accent-c: #68d391; }
+.work-img.orange { --accent-c: #f6ad55; }

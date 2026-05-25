@@ -342,6 +342,12 @@ main {
   animation: fadeUp 0.7s ease forwards;
 }
 
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.25s; }
+.delay-3 { animation-delay: 0.4s; }
+.delay-4 { animation-delay: 0.55s; }
+.delay-5 { animation-delay: 0.7s; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-links { display: none; }
