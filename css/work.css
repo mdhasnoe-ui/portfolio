@@ -53,13 +53,17 @@
 
 .work-img {
   height: 140px;
-  background: color-mix(in srgb, var(--accent-c) 12%, var(--bg-3));
+  background: var(--bg-3);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
 }
+
+.work-img.blue   { background: #63b3ed20; --accent-c: #63b3ed; }
+.work-img.green  { background: #68d39120; --accent-c: #68d391; }
+.work-img.orange { background: #f6ad5520; --accent-c: #f6ad55; }
 
 .work-img::before {
   content: '';
@@ -156,6 +160,3 @@
   }
 }
 
-.work-img.blue   { --accent-c: #63b3ed; }
-.work-img.green  { --accent-c: #68d391; }
-.work-img.orange { --accent-c: #f6ad55; }
